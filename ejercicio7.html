@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7</title>
+    <link href="./ejercicio7.css" rel="stylesheet" type="text/css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+  <div class="content">
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">EJERCICIO 7</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                
+                    <a class="nav-link" href="#">Otro enlace</a>
+                
+                    <a class="nav-link" href="#">Uno más</a>
+                </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-3 bg-white text-dark" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+            </div>
+        </nav>
+        <!-- CAROUSEL -->
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                
+              <div class="carousel-item carousel-image bg-img-1 active">
+                <!-- TITULO 1 -->
+                <div class="carousel-caption d-none d-md-block py-5">
+                    <h2>Título 1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At facilis mollitia aliquam minus provident deserunt.</p>
+                    <div class="button-left">
+                        <button type="button" class="btn btn-primary">Enlace 1</button>
+                    </div>
+                </div>
+                
+              <div class="carousel-item carousel-image bg-img-2">
+                <!-- <img src="./photo-1539035104074-dee66086b5e3.avif" class="d-block w-100" alt="..."> -->
+              </div>
+              <div class="carousel-item carousel-image bg-img-3">
+                <!-- <img src="./photo-1539807083969-fc1f6a4f6da8.jpeg" class="d-block w-100" alt="..."> -->
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <!-- Subtitulos sección -->
+        <div class="container-fluid">
+          <div class="row py-5">
+            <div class="col-xs-0 col-md-1"></div>
+              <div class="col-xs-12 col-md-3 pb-2">                
+                <h3>Subtitulo 1</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quos quis pariatur a illum cupiditate tenetur ut porro earum deleniti corporis maiores corrupti sequi voluptatum nobis accusantium, obcaecati eum eveniet?
+                <button type="button" class="btn btn-success">Enlace 4>></button>
+              </div>
+              <div class="col-xs-12 col-md-3 pb-2">
+                <h3>Subtitulo 2</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quos quis pariatur a illum cupiditate tenetur ut porro earum deleniti corporis maiores corrupti sequi voluptatum nobis accusantium, obcaecati eum eveniet?                
+                <button type="button" class="btn btn-warning">Enlace 5>></button>
+              </div>
+              <div class="col-xs-12 col-md-4 pb-2">
+                <h3>Subtitulo 3</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quos quis pariatur a illum cupiditate tenetur ut porro earum deleniti corporis maiores corrupti sequi voluptatum nobis accusantium, obcaecati eum eveniet?Lorem ipsum dolor sit amet consectetur adipisicing elit sequi voluptatum nobis.
+                <button type="button" class="btn btn-danger">Enlace 6>></button>
+              </div>
+          </div>
+          <!-- Seccion 1 -->
+          <div class="container-fluid">
+            <div class="row py-5">
+              <span class="border border-secondary my-5"></span>
+              <div class="col-xs-0 col-md-1"></div>
+              <div class="col-xs-12 col-md-6 pt-5">
+                <h3>Seccion 1. <span class="h3grey" style="color: gray;"> Hay dos más.</span></h3>
+                <span class="loremgrey" style="color: gray;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur dignissimos asperiores ratione iste ducimus provident laborum fuga sunt eaque velit quae, sed sapiente assumenda, minus recusandae sit necessitatibus est voluptate?</span>
+              </div>
+              <div class="col-xs-12 col-md-3">
+                <div class="imagen-seccion1 bg-img-s1"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Seccion 2 -->
+          <div class="container-fluid">
+            <div class="row py-5 ">
+              <span class="border border-secondary my-5"></span>
+              <div class="col-xs-0 col-md-1"></div>
+              <div class="col-xs-12 col-md-4">
+                <div class="imagen-seccion2 bg-img-s2"></div>
+              </div>
+              <div class="col-xs-12 col-md-6 pt-5">
+                <h3>Seccion 2. <span class="h3grey" style="color: gray;">Es la intermedia.</span></h3>
+                <span class="loremgrey" style="color: gray;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur dignissimos asperiores ratione iste ducimus provident laborum fuga sunt eaque velit quae, sed sapiente assumenda, minus recusandae sit necessitatibus est voluptate?</span>
+              </div> 
+            </div>
+          </div>
+          <!-- Seccion 3 -->
+          <div class="container-fluid">
+            <div class="row py-5">
+              <span class="border border-secondary my-5"></span> 
+              <div class="col-xs-0 col-md-1"></div>
+              <div class="col-xs-12 col-md-6 pt-5">
+                <h3>Seccion 3. <span class="h3grey" style="color: gray;">La última.</span></h3>
+                <span class="loremgrey" style="color: gray;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur dignissimos asperiores ratione iste ducimus provident laborum fuga sunt eaque velit quae, sed sapiente assumenda, minus recusandae sit necessitatibus est voluptate?</span>
+              </div>
+              <div class="col-xs-12 col-md-3">
+                <div class="imagen-seccion3 bg-img-s3"></div>
+              </div>
+              <span class="border border-secondary my-5"></span>
+            </div>
+          </div>
+  </div>
+    <script src="./ejercicio7.js"></script>
+</body>
+</html>

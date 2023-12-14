@@ -1,0 +1,55 @@
+/* Imagenes carousel */
+.bg-img-1{
+background-image: url(ocean-wave-5k-va-2880x1800.jpg);
+}
+.bg-img-2{
+    background-image: url(photo-1539035104074-dee66086b5e3.avif);
+}
+.bg-img-3{
+    background-image: url(photo-1539807083969-fc1f6a4f6da8.jpeg);
+}
+/* ---------------- */
+.carousel-image{
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.carousel-caption h2,p{
+    text-align: left;
+}
+.button-left{
+    text-align: left;
+}
+/* Imagenes sección */
+.bg-img-s1{
+    background-image: url(photo-1539035104074-dee66086b5e3.avif);
+}
+.bg-img-s3{
+    background-image: url(photo-1539807083969-fc1f6a4f6da8.jpeg);
+}
+.bg-img-s2{
+    background-image: url(ocean-wave-5k-va-2880x1800.jpg);
+}
+.imagen-seccion1{
+    height: 30vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.imagen-seccion2{
+    height: 30vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.imagen-seccion3{
+    height: 30vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* ------------------ */
